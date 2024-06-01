@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    tools:ignore="HardcodedText">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:ems="12"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:id="@+id/name"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+
+    <EditText
+        android:ems="12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="0123456789"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:id="@+id/phone"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:layout_marginTop="40dp"
+        android:id="@+id/save"
+        android:textSize="20sp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Activity"
+        android:layout_marginTop="10dp"
+        android:id="@+id/next"
+        android:textSize="20sp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+
+</LinearLayout>
